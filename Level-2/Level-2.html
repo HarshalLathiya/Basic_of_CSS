@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Css box model</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            /* Centers the boxes horizontally */
+            align-items: center;
+            /* Centers the boxes vertically */
+        }
+
+        .box {
+            height: 200px;
+            width: 200px;
+            margin: 10px;
+        }
+
+        #first {
+            background-color: burlywood;
+            padding: 45px;
+            border: 10px solid black;
+            text-align: center;
+        }
+
+        #second {
+            background-color: gold;
+            padding: 45px;
+            border: 10px solid black;
+            text-align: center;
+        }
+
+        #third {
+            background-color: green;
+            padding: 45px;
+            border: 10px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="first" class="box">
+            <p>
+                What is CSS ?
+                <br>
+                CSS stands for Cascading Style Sheets
+                <br>
+                CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+                <br>
+                CSS saves a lot of work. It can control the layout of multiple web pages all at once
+                <br>
+                External stylesheets are stored in CSS files
+            </p>
+        </div>
+        <div id="second" class="box">
+            <p>
+                CSS Padding
+                The CSS padding properties are used to generate space around an element's content, inside of any defined
+                borders.
+
+                With CSS, you have full control over the padding. There are properties for setting the padding for each
+                side
+                of an
+                element (top, right, bottom, and left).
+            </p>
+        </div>
+        <div id="third" class="box">
+            <a href="https://www.w3schools.com/css/default.asp">click for more information</a>
+        </div>
+    </div>
+</body>
+
+</html>

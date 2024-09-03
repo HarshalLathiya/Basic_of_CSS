@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Float</title>
+    <style>
+        #outer-box {
+            border-style: dashed;
+            border-color: black;
+            height: 398px;
+            width: 100%;
+        }
+
+        div {
+            display: inline-block;
+            width: 50%;
+        }
+
+        p {
+            font-size: 2em;
+        }
+
+        .dog {
+            background-color: wheat;
+            float: right;
+        }
+
+        .bird {
+            background-color: grey;
+            float: right;
+        }
+
+        img {
+            height: 300px;
+            width: 200px;
+            border: 7px;
+            border-color: black;
+            border-style: double;
+            float: left;
+        }
+
+        footer {
+            clear: both;
+            text-align: center;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="outer-box" class="box">
+        <div class="dog">
+            <h2> GRACIE </h2>
+            <img src="./IMG/IMG_5866.JPG" alt="pet name">
+            <ul>
+                <p class="first paragraph">This is my pet dog.
+                    its name is Gracie.
+                    it is very cute and lovely dog.
+                    it is also my famliy member.
+                    his nature is very calm and good.
+                    and you all know that dogs are always loyal.</p>
+            </ul>
+        </div>
+        <div class="bird">
+            <h2> SPARROW</h2>
+            <img src="./IMG/IMG_1402.JPG" alt="bird">
+            <p class="second paragraph">A sparrow is an omnivorous bird.
+                It eats seeds, grains, fruits and insects etc.
+                Sparrows generally build their nests in the roof of houses, buildings, bridges and hollows of trees.
+                In urban areas, these birds often nest in the houses of humans.</p>
+        </div>
+        <footer>Copyright. This is the footer</footer>
+    </div>
+</body>
+
+</html>
